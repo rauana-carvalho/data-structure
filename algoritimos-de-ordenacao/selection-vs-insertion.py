@@ -8,7 +8,8 @@ import datetime
 s = 68 #tamanho da linha de separação
 
 # ---- constante ----
-INSTANCES_DIR = r"C:\Users\ana\ana\data-structure\algoritimos-de-ordenação\instancias-num"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INSTANCES_DIR = os.path.join(SCRIPT_DIR, "instancias-num")
 
 def SelectionSort(arr):
     """Implementação do Selection Sort."""
