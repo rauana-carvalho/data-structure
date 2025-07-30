@@ -36,6 +36,7 @@ data-structures/
 
 ### Requirements
 - GCC (g++)
+- Python 3
 
 ### Compile and Run Linked List Example
 
@@ -63,6 +64,23 @@ g++ src/ListaSequencial.cpp -o ListaSequencial.exe
 ./ListaSequencial.exe
 ```
 
+### Run Python Examples
+
+
+> **Note:** In the Tic Tac Toe game, you can exit the game screen by pressing the ESC key when the game is over.
+
+For Python-based projects (e.g., sorting algorithms, Tic Tac Toe):
+
+```sh
+# Example: Run Tic Tac Toe
+cd jogo-da-velha/
+python main.py
+
+# Example: Run a sorting algorithm
+cd ../../algoritimos-de-ordenacao
+python selection-vs-insertion.py
+```
+
 ## Notes
 - All code is in Portuguese for academic purposes.
 - Exception messages and output use UTF-8. If you see strange characters, set your terminal to UTF-8 or use `std::setlocale(LC_ALL, "en_US.utf8");` in your `main()`.
@@ -71,7 +89,6 @@ g++ src/ListaSequencial.cpp -o ListaSequencial.exe
 
 GitHub: [@rauana-carvalho](https://github.com/rauana-carvalho)  
 LinkedIn: [Rauana Carvalho](https://www.linkedin.com/in/rauana-carvalho-8a61241b9/)
-
 
 Feel free to open issues or contribute! 🍅
 

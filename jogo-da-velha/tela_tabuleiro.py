@@ -24,10 +24,13 @@ class TelaTabuleiro:
         self.desenhar_tabuleiro()
 
     def aguardar_sair(self):
-        """Aguarda o usuário fechar a janela."""
+        """Aguarda o usuário fechar a janela ou pressionar ESC."""
         while True:
             for evento in pygame.event.get():
                 if evento.type == pygame.QUIT:
+                    pygame.quit()
+                    return
+                if evento.type == pygame.KEYDOWN and evento.key == pygame.K_ESCAPE:
                     pygame.quit()
                     return
 
