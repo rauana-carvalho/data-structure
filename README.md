@@ -2,6 +2,7 @@
 
 This repository contains implementations of classic data structures, including:
 
+- **Queue**: Array-based queue implementation in C with a Makefile.
 - **Sorting Algorithms (Algorítimos de Ordenação)**:  Classic sorting algorithms.
 - **Tic Tac Toe (Jogo da Velha)**: Command-line Tic Tac Toe game.
 - **Sequential List (Lista Sequencial)**: Array-based list.
@@ -35,8 +36,26 @@ data-structures/
 ## How to Compile and Run
 
 ### Requirements
-- GCC (g++)
+- GCC (gcc and g++)
 - Python 3
+
+
+Queue Example
+
+This project uses a Makefile to simplify compilation.
+
+1.  Navigate to the project folder:
+    ```sh
+    cd queue
+    ```
+2.  Compile the project:
+    ```sh
+    g++ src\main.c src\fila.c -Iinclude -o bin\main.exe
+    ```
+3.  Run the test program:
+    ```sh
+    ./bin/main.exe
+    ```
 
 ### Compile and Run Linked List Example
 
